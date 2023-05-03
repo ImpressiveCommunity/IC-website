@@ -1,5 +1,6 @@
 # File structure
 
+```js
 src:  
     components: Button, Panel, NavBar, etc.  
     pages:  
@@ -13,6 +14,7 @@ src:
             [...]  
     styles  
         globals.css  
+```
 
 - Everything is in `src` directory. In `src/pages`, there are multiple other directories correspond to each specific page of our website. 
 - The `index.js` file in each page directory can be replaced by `index.mdx` to use markdown instead of JavaScript.
