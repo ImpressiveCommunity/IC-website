@@ -1,6 +1,6 @@
 # File structure
 
-```js
+```
 src:  
     components: Button, Panel, NavBar, etc.  
     pages:  
