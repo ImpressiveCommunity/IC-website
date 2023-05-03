@@ -21,6 +21,7 @@ src:
 
 - `index.js`: Should only contain page's content
 - `layout.js`: Should combine all the components to create the layout for each page
+- Any `api` that is correspond to a page should contain inside a `./page_name/api/route.js`. 
 
 - Everything is in `src` directory. In `src/pages`, there are multiple other directories correspond to each specific page of our website. 
 - The `index.js` file in each page directory can be replaced by `index.mdx` to use markdown instead of JavaScript.
