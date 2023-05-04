@@ -1,8 +1,7 @@
+import Layout from '../components/layout.js';
+
 export default function Home(){
-    return (<main>
-        <h1>Home Page</h1>
-        <a href='get_involve'>Get Involve</a> <br />
-        <a href='programs_projects'>Programs and Projects</a> <br />
-        <a href='about_us'>About Us</a>
-    </main>)
+    return (<Layout current_page='home'>
+        <h1>Home</h1>
+    </Layout>);
 }
