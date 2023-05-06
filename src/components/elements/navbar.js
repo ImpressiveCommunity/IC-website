@@ -6,7 +6,7 @@ export default function Navbar({ current_page }){
     };
 
     const list_of_link = Object.keys(pages).map((page_id)=> 
-        <li className={
+        <li key={page_id} className={
             (page_id === current_page ? 'text-blue-500' : '') +
             ''
         }>
