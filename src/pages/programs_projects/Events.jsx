@@ -26,7 +26,7 @@ export default function Events(){
             className='flex w-full justify-between'
         >
 
-            <div className='self-start sticky top-20 text-left'
+            <div className='self-start sticky top-16 text-left'
             >
                 <h2 className={HeadingFont.className + ' text-2xl'}>
                     * {event.title}

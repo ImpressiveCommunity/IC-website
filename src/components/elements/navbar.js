@@ -19,7 +19,7 @@ export default function Navbar({ current_page }){
         </li>
     );
 
-    return (<div className='fixed top-0 left-0 z-10 flex justify-between w-full p-5'
+    return (<div className='fixed top-0 left-0 z-10 flex justify-between items-center w-full h-16 px-5'
         style={{
             // backgroundColor: '#ffffffe8',
             backgroundImage: 'radial-gradient(rgba(0, 0, 0, 0) 1px, white 2px)',

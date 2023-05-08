@@ -3,7 +3,7 @@ import { HeadingFont, TextFont } from '../../styles/font.js';
 export default function Overview(){
     return (
         <div className='flex justify-between w-full'>
-            <h1 className={'self-start sticky top-20 ' + HeadingFont.className + ' text-5xl'}>
+            <h1 className={'self-start sticky top-16 ' + HeadingFont.className + ' text-5xl'}>
                 Overview 
             </h1>
             <p className={TextFont.className + ' text-lg text-gray-700 w-[50vw]'}>

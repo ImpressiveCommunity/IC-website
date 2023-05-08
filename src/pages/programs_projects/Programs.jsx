@@ -25,7 +25,7 @@ export default function Programs(){
 
     return (
         <div className='flex justify-between w-full'>
-            <h1 className={'self-start sticky top-20 ' + HeadingFont.className + ' text-5xl'}>
+            <h1 className={'self-start sticky top-16 ' + HeadingFont.className + ' text-5xl'}>
                 Programs
             </h1>
             <div className='flex flex-col space-y-10 w-[50vw]'>
