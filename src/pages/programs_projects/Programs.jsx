@@ -24,11 +24,11 @@ export default function Programs(){
     );
 
     return (
-        <div className='flex justify-between w-full'>
-            <h1 className={'self-start sticky top-16 ' + HeadingFont.className + ' text-5xl'}>
+        <div className='flex flex-col md:flex-row justify-between w-full'>
+            <h1 className={'self-start md:sticky top-16 pb-5 ' + HeadingFont.className + ' text-4xl md:text-5xl'}>
                 Programs
             </h1>
-            <div className='flex flex-col space-y-10 w-[50vw]'>
+            <div className='flex flex-col space-y-10 w-full md:w-[50vw]'>
                 {list_of_programs}
             </div>
         </div>

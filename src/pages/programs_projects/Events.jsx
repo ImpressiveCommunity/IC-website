@@ -23,13 +23,13 @@ const events = [
 export default function Events(){
     const list_of_events = events.map((event, index)=> 
         <div key={index} 
-            className='flex w-full justify-between'
+            className='flex flex-col md:flex-row w-full justify-between'
         >
 
-            <div className='self-start sticky top-16 text-left'
+            <div className='self-start md:sticky top-16 text-left'
             >
                 <h2 className={HeadingFont.className + ' text-2xl'}>
-                    * {event.title}
+                    {event.title}
                 </h2>
                 <p className={TextFont.className + ' text-lg'}>
                     {event.topic}
@@ -39,13 +39,13 @@ export default function Events(){
                 </p>
             </div>
 
-            <div className='flex flex-col space-y-10'>
+            <div className='flex flex-col space-y-5 md:space-y-10'>
                 {event.images_url.map((url, image_index)=>
                     <div key={index + '-' + image_index}
                         style={{
                             backgroundImage: 'url("' + url + '")',
                         }}
-                        className='w-[30vw] h-[40vw] mx-10 rounded rounded-[1rem] bg-center bg-cover bg-no-repeat'
+                        className='w-full h-[100vw] md:w-[30vw] md:h-[40vw] md:mx-10 rounded rounded-[1rem] bg-center bg-cover bg-no-repeat'
                     >
                     </div>
                 )}
@@ -55,7 +55,7 @@ export default function Events(){
 
     return (
         <div className='w-full'>
-            <h1 className={HeadingFont.className + ' text-5xl pb-10'}>
+            <h1 className={HeadingFont.className + ' text-4xl md:text-5xl pb-5 md:pb-10'}>
                 Previous Events
             </h1>
 

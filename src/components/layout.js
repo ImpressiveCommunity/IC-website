@@ -6,5 +6,5 @@ export default function Layout({ children, current_page }){
         <main className='mt-16'>
             {children}
         </main>
-    </>);
+    </>)
 }
