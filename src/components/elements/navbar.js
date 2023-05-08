@@ -11,7 +11,7 @@ export default function Navbar({ current_page }){
         <li key={page_id} className={
             (page_id === current_page ? 'text-blue-500 ' : '') +
             TextFont.className +
-            ''
+            ' bg-white'
         }>
             <a href={'/' + page_id}>
                 {pages[page_id]}
@@ -21,8 +21,10 @@ export default function Navbar({ current_page }){
 
     return (<div className='fixed top-0 left-0 z-10 flex justify-between w-full p-5'
         style={{
-            backgroundColor: '#ffffffe8',
-            backdropFilter: 'blur(3px)'
+            // backgroundColor: '#ffffffe8',
+            backgroundImage: 'radial-gradient(rgba(0, 0, 0, 0) 1px, white 1px)',
+            backdropFilter: 'blur(3px)',
+            backgroundSize: '10px 10px'
         }}
     >
         <a href='./' className={HeadingFont.className + ' text-lg'}>
