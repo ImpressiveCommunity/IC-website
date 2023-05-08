@@ -15,7 +15,7 @@ export default function Programs(){
     const list_of_programs = programs.map((program, index)=>
         <div key={index} >
             <h2 className={'text-2xl ' + HeadingFont.className + ''}>
-                * {program.title}
+                {program.title}
             </h2>
             <p className={ TextFont.className +' text-lg text-gray-700'}>
                 {program.description}
