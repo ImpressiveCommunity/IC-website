@@ -22,7 +22,7 @@ export default function Navbar({ current_page }){
     return (<div className='fixed top-0 left-0 z-10 flex justify-between w-full p-5'
         style={{
             // backgroundColor: '#ffffffe8',
-            backgroundImage: 'radial-gradient(rgba(0, 0, 0, 0) 1px, white 1px)',
+            backgroundImage: 'radial-gradient(rgba(0, 0, 0, 0) 1px, white 2px)',
             backdropFilter: 'blur(3px)',
             backgroundSize: '10px 10px'
         }}
