@@ -1,3 +1,5 @@
+import { HeadingFont, TextFont } from "@/styles/font";
+
 const currentMember = [
   {
     name: "Sokthoutheareach Chun",
@@ -21,10 +23,20 @@ export default function OurTeam() {
     <div className="bg-white py-24 sm:py-12">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          <h2
+            className={
+              HeadingFont.className +
+              " text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+            }
+          >
             Our team
           </h2>
-          <p className="mt-6 text-lg leading-8 text-black font-bold">
+          <p
+            className={
+              HeadingFont.className +
+              " mt-6 text-lg leading-8 text-black font-bold"
+            }
+          >
             Our current member
           </p>
         </div>
@@ -39,16 +51,34 @@ export default function OurTeam() {
                 src={person.imageUrl}
                 alt=""
               />
-              <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">
+              <h3
+                className={
+                  HeadingFont.className +
+                  " mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900"
+                }
+              >
                 {person.name}
               </h3>
-              <p className="text-sm leading-6 text-gray-600">{person.role}</p>
+              <p
+                className={
+                  TextFont.className + " text-sm leading-6 text-gray-600"
+                }
+              >
+                {person.role}
+              </p>
             </li>
           ))}
         </ul>
 
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <p className="mt-6 text-lg leading-8 text-black font-bold">Our Alumni</p>
+          <p
+            className={
+              HeadingFont.className +
+              " mt-6 text-lg leading-8 text-black font-bold"
+            }
+          >
+            Our Alumni
+          </p>
         </div>
         <ul
           role="list"
@@ -61,10 +91,21 @@ export default function OurTeam() {
                 src={alumni.imageUrl}
                 alt=""
               />
-              <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">
+              <h3
+                className={
+                  HeadingFont.className +
+                  " mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900"
+                }
+              >
                 {alumni.name}
               </h3>
-              <p className="text-sm leading-6 text-gray-600">{alumni.role}</p>
+              <p
+                className={
+                  TextFont.className + " text-sm leading-6 text-gray-600"
+                }
+              >
+                {alumni.role}
+              </p>
             </li>
           ))}
         </ul>

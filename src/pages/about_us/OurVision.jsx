@@ -1,3 +1,5 @@
+import { HeadingFont, TextFont } from "@/styles/font";
+
 export default function OurVision() {
   return (
     <div className="bg-white">
@@ -48,10 +50,20 @@ export default function OurVision() {
             <div className="mx-auto max-w-7xl px-6 pt-36 sm:pt-40 lg:px-3 lg:pt-10">
               <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
                 <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
-                  <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+                  <h1
+                    className={
+                      HeadingFont.className +
+                      " text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl"
+                    }
+                  >
                     We’re changing the way people connect.
                   </h1>
-                  <p className="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
+                  <p
+                    className={
+                      TextFont.className +
+                      " relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none font-poppins"
+                    }
+                  >
                     It is a long established fact that a reader will be
                     distracted by the readable content of a page when looking at
                     its layout. The point of using Lorem Ipsum is that it has a
