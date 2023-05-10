@@ -8,12 +8,12 @@ export default function ContactInfo() {
               <h2 className="text-3xl font-bold tracking-tight text-gray-900">
                 Contact Info
               </h2>
-              <p className="text-gray-600">   </p>
+              <p className="text-gray-600"> </p>
             </div>
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:gap-8">
               <div className="rounded-2xl bg-gray-50 p-10">
                 <h3 className="text-base font-semibold text-gray-900">
-                  Collaborate
+                  Contact Us
                 </h3>
                 <dl className="mt-3 space-y-1 text-sm text-gray-600">
                   <div>
@@ -35,7 +35,7 @@ export default function ContactInfo() {
               </div>
               <div className="rounded-2xl bg-gray-50 p-10">
                 <h3 className="text-base font-semibold text-gray-900">
-                  Phnom Penh
+                  Our Address
                 </h3>
                 <address className="mt-3 space-y-1 text-sm not-italic text-gray-600">
                   <p>Phnom Penh</p>

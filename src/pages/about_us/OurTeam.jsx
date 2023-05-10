@@ -5,72 +5,12 @@ const currentMember = [
     imageUrl:
       "https://i.pinimg.com/736x/87/67/64/8767644bc68a14c50addf8cb2de8c59e.jpg",
   },
-  {
-    name: "Sokthoutheareach Chun",
-    role: "Founder",
-    imageUrl:
-      "https://i.pinimg.com/736x/87/67/64/8767644bc68a14c50addf8cb2de8c59e.jpg",
-  },
-  {
-    name: "Sokthoutheareach Chun",
-    role: "Founder",
-    imageUrl:
-      "https://i.pinimg.com/736x/87/67/64/8767644bc68a14c50addf8cb2de8c59e.jpg",
-  },
-  {
-    name: "Sokthoutheareach Chun",
-    role: "Founder",
-    imageUrl:
-      "https://i.pinimg.com/736x/87/67/64/8767644bc68a14c50addf8cb2de8c59e.jpg",
-  },
-  {
-    name: "Sokthoutheareach Chun",
-    role: "Founder",
-    imageUrl:
-      "https://i.pinimg.com/736x/87/67/64/8767644bc68a14c50addf8cb2de8c59e.jpg",
-  },
-  {
-    name: "Sokthoutheareach Chun",
-    role: "Founder",
-    imageUrl:
-      "https://i.pinimg.com/736x/87/67/64/8767644bc68a14c50addf8cb2de8c59e.jpg",
-  },
 ];
 
 const ourAlumni = [
   {
-    name: "Sokthoutheareach Chun 1",
-    role: "Founder",
-    imageUrl:
-      "https://i.pinimg.com/736x/87/67/64/8767644bc68a14c50addf8cb2de8c59e.jpg",
-  },
-  {
-    name: "Sokthoutheareach Chun",
-    role: "Founder",
-    imageUrl:
-      "https://i.pinimg.com/736x/87/67/64/8767644bc68a14c50addf8cb2de8c59e.jpg",
-  },
-  {
-    name: "Sokthoutheareach Chun",
-    role: "Founder",
-    imageUrl:
-      "https://i.pinimg.com/736x/87/67/64/8767644bc68a14c50addf8cb2de8c59e.jpg",
-  },
-  {
-    name: "Sokthoutheareach Chun",
-    role: "Founder",
-    imageUrl:
-      "https://i.pinimg.com/736x/87/67/64/8767644bc68a14c50addf8cb2de8c59e.jpg",
-  },
-  {
-    name: "Sokthoutheareach Chun",
-    role: "Founder",
-    imageUrl:
-      "https://i.pinimg.com/736x/87/67/64/8767644bc68a14c50addf8cb2de8c59e.jpg",
-  },
-  {
-    name: "Sokthoutheareach Chun",
-    role: "Founder",
+    name: "Sovanroth Nath",
+    role: "Member",
     imageUrl:
       "https://i.pinimg.com/736x/87/67/64/8767644bc68a14c50addf8cb2de8c59e.jpg",
   },
