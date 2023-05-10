@@ -25,7 +25,7 @@ export default function Navbar({ current_page }){
     return (<div className='fixed top-0 left-0 z-20 flex flex-col bg-[#ffffffaa] h-16 md:bg-[#ffffff00] md:flex-row md:justify-between md:items-center w-full px-5'
         style={{
             // backgroundColor: '#ffffffe8',
-            backgroundImage: 'radial-gradient(rgba(0, 0, 0, 0) 1px, white 2px)',
+            backgroundImage: 'radial-gradient(rgba(0, 0, 0, 0) 1px, white 1px)',
             backdropFilter: 'blur(3px)',
             backgroundSize: '10px 10px'
         }}
