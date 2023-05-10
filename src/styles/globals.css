@@ -1,5 +1,7 @@
 @tailwind base;
 @tailwind components;
+@import url('https://fonts.googleapis.com/css2?family=Coda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda&family=Poppins&display=swap');
 @tailwind utilities;
 
 .gradient-bg-1{
