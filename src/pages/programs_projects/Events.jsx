@@ -1,24 +1,5 @@
+import { events } from './contents.js';
 import { HeadingFont, TextFont } from '../../styles/font.js';
-
-const events = [
-    {
-        title: 'Event 1',
-        topic: 'Topic in Event 1',
-        date: 'December 20, 2023',
-        images_url: [
-            'https://images.pexels.com/photos/16401186/pexels-photo-16401186.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
-        ]
-    },
-    {
-        title: 'Event 2',
-        topic: 'Topic in Event 2',
-        date: 'December 20, 2024',
-        images_url: [
-            'https://images.pexels.com/photos/16401186/pexels-photo-16401186.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
-            'https://images.pexels.com/photos/16401186/pexels-photo-16401186.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
-        ]
-    },
-];
 
 export default function Events(){
     const list_of_events = events.map((event, index)=> 

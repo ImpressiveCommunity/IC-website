@@ -1,15 +1,5 @@
+import { programs } from './contents.js';
 import { HeadingFont, TextFont } from '../../styles/font.js';
-
-const programs = [
-    {
-        title: 'Program 1',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua'
-    },
-    {
-        title: 'Program 2',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua'
-    },
-];
 
 export default function Programs(){
     const list_of_programs = programs.map((program, index)=>
