@@ -37,7 +37,7 @@ export default function OurTeam() {
               " mt-6 text-lg leading-8 text-black font-bold"
             }
           >
-            Our current member
+            Board of Director
           </p>
         </div>
         <ul
@@ -77,7 +77,7 @@ export default function OurTeam() {
               " mt-6 text-lg leading-8 text-black font-bold"
             }
           >
-            Our Alumni
+            Management Team
           </p>
         </div>
         <ul
