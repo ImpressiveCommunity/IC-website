@@ -35,9 +35,9 @@ export default function ContactInfo() {
                         className={
                           TextFont.className + " font-semibold text-indigo-600"
                         }
-                        href="inbox.impressive.community@gmail.com"
+                        href=""
                       >
-                        inbox.impressive.community@gmail.com
+                        impressive.community.kpc@gmail.com
                       </a>
                     </dd>
                   </div>
@@ -64,8 +64,8 @@ export default function ContactInfo() {
                     " mt-3 space-y-1 text-sm not-italic text-gray-600"
                   }
                 >
-                  <p>Phnom Penh</p>
-                  <p>Phnome Penh</p>
+                  <p>Kampong Cham Town, Kampong Cham Province, Cambodia</p>
+                  <p></p>
                 </address>
               </div>
             </div>
