@@ -2,7 +2,7 @@ import { HeadingFont, TextFont } from "@/styles/font";
 
 export default function ContactInfo() {
   return (
-    <div className="bg-white py-14 sm:py-14">
+    <div className="bg-slate-800 py-14 sm:py-14">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl space-y-16 divide-y divide-gray-100 lg:mx-0 lg:max-w-none">
           <div className="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-3">
@@ -10,7 +10,7 @@ export default function ContactInfo() {
               <h2
                 className={
                   HeadingFont.className +
-                  " text-3xl font-bold tracking-tight text-gray-900"
+                  " text-3xl font-bold tracking-tight text-white"
                 }
               >
                 Contact Info
@@ -18,11 +18,11 @@ export default function ContactInfo() {
               <p className="text-gray-600"> </p>
             </div>
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:gap-8">
-              <div className="rounded-2xl bg-gray-50 p-10">
+              <div className="rounded-2xl bg-slate-700 p-10">
                 <h3
                   className={
                     HeadingFont.className +
-                    " text-base font-semibold text-gray-900"
+                    " text-base font-semibold text-gray-900 text-white"
                   }
                 >
                   Contact Us
@@ -33,7 +33,7 @@ export default function ContactInfo() {
                     <dd>
                       <a
                         className={
-                          TextFont.className + " font-semibold text-indigo-600"
+                          TextFont.className + " font-semibold text-sky-500"
                         }
                         href=""
                       >
@@ -45,15 +45,15 @@ export default function ContactInfo() {
                     <dt className={TextFont.className + " sr-only"}>
                       Phone number
                     </dt>
-                    <dd className={TextFont}>+855 70 693 381</dd>
+                    <dd className={TextFont.className + " text-slate-200"}>+855 70 693 381</dd>
                   </div>
                 </dl>
               </div>
-              <div className="rounded-2xl bg-gray-50 p-10">
+              <div className="rounded-2xl bg-slate-700 p-10">
                 <h3
                   className={
                     HeadingFont.className +
-                    " text-base font-semibold text-gray-900"
+                    " text-base font-semibold text-gray-900 text-white"
                   }
                 >
                   Our Address
@@ -61,7 +61,7 @@ export default function ContactInfo() {
                 <address
                   className={
                     TextFont.className +
-                    " mt-3 space-y-1 text-sm not-italic text-gray-600"
+                    " mt-3 space-y-1 text-sm not-italic text-slate-200"
                   }
                 >
                   <p>Kampong Cham Town, Kampong Cham Province, Cambodia</p>
