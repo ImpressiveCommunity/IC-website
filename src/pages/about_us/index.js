@@ -1,6 +1,5 @@
 import Layout from '../../components/layout.js';
 
-import ContactInfo from "./ContactInfo";
 import OurMission from "./OurMission";
 import OurTeam from "./OurTeam";
 import OurValue from "./OurValue";
@@ -12,6 +11,5 @@ export default function AboutUsPage(){
         <OurMission/>,
         <OurValue/>,
         <OurTeam/>,
-        <ContactInfo/>
     </Layout> );
 }
