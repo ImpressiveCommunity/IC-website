@@ -4,10 +4,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Coda&family=Poppins&display=swap');
 @tailwind utilities;
 
+html{
+    scroll-behavior: smooth;
+}
+
 li{
     display: inline-block;
     position: relative;
     color: #555555;
+    transition: 0.3s all ease-in-out;
+    background: transparent;
 }
 li:hover{
     color: #2dbdc0;

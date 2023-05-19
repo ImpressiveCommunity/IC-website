@@ -1,6 +1,6 @@
 import { HeadingFont, TextFont } from "@/styles/font";
 
-const missions = [
+export const missions = [
   {
     name: "Mission 1",
     description:
