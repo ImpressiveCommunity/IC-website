@@ -1,3 +1,21 @@
+# Content editing guide
+
+1. Go to [IC-website Github](https://github.com/ImpressiveCommunity/IC-website)
+2. Everything is in `src` $\rightarrow$ `pages` 
+3. Each folder in `pages` (about_us, get_involve, programs_projects) should contain `content.js`
+4. There are two importants type of contents:
+	1. Paragraph: It is in the form `export const section_name = "Paragraph"`. The only thing you should change is the text that is inside of "". `section_name` should tell which part of the page it is related to. The "", sometime, can be '', or \`\` (newline or ចុះបន្ទាត់ does't matter). 
+	2. Array: A list of contents separated by ",". Copy and Paste the `{ ... }` block to create more.
+5. For the images, we will have to discuss more on where should we upload it.
+ 
+---
+
+## Programs and Projects
+ 
+![image 1](https://github.com/ImpressiveCommunity/IC-website/blob/montrey/guide%20images/programs_projects1.png)
+![image 2](https://github.com/ImpressiveCommunity/IC-website/blob/montrey/guide%20images/programs_projects2.png)
+![image 3](https://github.com/ImpressiveCommunity/IC-website/blob/montrey/guide%20images/programs_projects3.png)
+
 # File structure
 
 ```
