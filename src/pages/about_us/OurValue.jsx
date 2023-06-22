@@ -26,7 +26,7 @@ const values = [
 export default function OurValue() {
   return (
     <div>
-      <div className="mx-auto mt-10 max-w-7xl px-6 sm:mt-30 lg:px-8">
+      <div className="mx-auto mt-10 max-w-fi ml-16 mr-16 px-6 sm:mt-30 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2
             className={

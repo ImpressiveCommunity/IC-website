@@ -20,7 +20,7 @@ export const missions = [
 
 export default function OurMission() {
   return (
-    <div className="mx-auto max-w-7xl px-6 sm:mt-20 lg:px-8">
+    <div className="mx-auto max-w-fit mr-16 ml-16 px-6 sm:mt-20 lg:px-8">
       <div className="mx-auto max-w-2xl lg:mx-0">
         <h2
           className={
