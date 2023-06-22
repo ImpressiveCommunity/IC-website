@@ -1,27 +1,45 @@
 import { HeadingFont, TextFont } from "@/styles/font";
+import { BsLinkedin,  } from "react-icons/bs";
+import { BiLogoGoogle,  } from "react-icons/bi";
 
-const currentMember = [
+
+const BoardOfDirector = [
   {
     name: "Sokthoutheareach Chun",
     role: "Founder",
     imageUrl:
       "https://i.pinimg.com/736x/87/67/64/8767644bc68a14c50addf8cb2de8c59e.jpg",
+    linkedin: "https://youtu.be/t3ZC9pNyI0k",
+    gmail: "https://youtu.be/t3ZC9pNyI0k"
+  },
+];
+
+const managementTeam = [
+  {
+    name: "EO",
+    role: "Founder",
+    imageUrl:
+      "https://i.pinimg.com/736x/87/67/64/8767644bc68a14c50addf8cb2de8c59e.jpg",
+    linkedin: "https://youtu.be/t3ZC9pNyI0k",
+    gmail: "https://youtu.be/6ayyfucIl6M"
   },
 ];
 
 const ourAlumni = [
   {
-    name: "Sovanroth Nath",
+    name: "Sokthoutheareach Chun",
     role: "Member",
     imageUrl:
       "https://i.pinimg.com/736x/87/67/64/8767644bc68a14c50addf8cb2de8c59e.jpg",
+    linkedin: "https://youtu.be/t3ZC9pNyI0k",
+    gmail: "https://youtu.be/mNEUkkoUoIA"
   },
 ];
 
 export default function OurTeam() {
   return (
     <div className="bg-white py-24 sm:py-12">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="mx-auto max-w-fit ml-16 mr-16 px-6 lg:px-8 mb-10">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2
             className={
@@ -44,7 +62,7 @@ export default function OurTeam() {
           role="list"
           className="mx-auto mt-8 grid max-w-2xl grid-cols-2 gap-x-8 gap-y-16 text-center sm:grid-cols-3 md:grid-cols-4 lg:mx-0 lg:max-w-none lg:grid-cols-5 xl:grid-cols-6"
         >
-          {currentMember.map((person) => (
+          {BoardOfDirector.map((person) => (
             <li key={person.name}>
               <img
                 className="mx-auto h-24 w-24 rounded-full"
@@ -67,10 +85,17 @@ export default function OurTeam() {
                 {person.role}
               </p>
 
+              <div className="flex justify-center text-xl mt-2">
+                <a href={person.linkedin} target="_blank">
+                  <BsLinkedin />
+                </a>
+                <a href={person.gmail} target="_blank" className=" pl-2">
+                  <BiLogoGoogle/>
+                </a>
+              </div>
+
             </li>
           ))}
-
-
         </ul>
 
         <div className="mx-auto max-w-2xl lg:mx-0">
@@ -87,11 +112,11 @@ export default function OurTeam() {
           role="list"
           className="mx-auto mt-8 grid max-w-2xl grid-cols-2 gap-x-8 gap-y-16 text-center sm:grid-cols-3 md:grid-cols-4 lg:mx-0 lg:max-w-none lg:grid-cols-5 xl:grid-cols-6"
         >
-          {ourAlumni.map((alumni) => (
-            <li key={alumni.name}>
+          {managementTeam.map((manaTeam) => (
+            <li key={manaTeam.name}>
               <img
                 className="mx-auto h-24 w-24 rounded-full"
-                src={alumni.imageUrl}
+                src={manaTeam.imageUrl}
                 alt=""
               />
               <h3
@@ -100,21 +125,31 @@ export default function OurTeam() {
                   " mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900"
                 }
               >
-                {alumni.name}
+                {manaTeam.name}
               </h3>
               <p
                 className={
                   TextFont.className + " text-sm leading-6 text-gray-600"
                 }
               >
-                {alumni.role}
+                {manaTeam.role}
               </p>
+
+              <div className="flex justify-center text-xl mt-2">
+                <a href={manaTeam.linkedin} target="_blank">
+                  <BsLinkedin />
+                </a>
+                <a href={manaTeam.gmail} target="_blank" className=" pl-2">
+                  <BiLogoGoogle/>
+                </a>
+              </div>
+
             </li>
           ))}
         </ul>
       </div>
 
-      <div className="mx-auto max-w-7xl sm:py-12 px-6 lg:px-8">
+      <div className="mx-auto max-w-fit mt- ml-16 mr-16 px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2
             className={
@@ -122,7 +157,7 @@ export default function OurTeam() {
               " text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
             }
           >
-            Alumni
+            Our Alumni
           </h2>
         </div>
         <ul
@@ -151,11 +186,20 @@ export default function OurTeam() {
               >
                 {alumni.role}
               </p>
+
+              <div className="flex justify-center text-xl mt-2">
+                <a href={alumni.linkedin} target="_blank">
+                  <BsLinkedin />
+                </a>
+                <a href={alumni.gmail} target="_blank" className=" pl-2">
+                  <BiLogoGoogle/>
+                </a>
+              </div>
+
             </li>
           ))}
         </ul>
       </div>
-      
     </div>
   );
 }
