@@ -12,6 +12,22 @@ const BoardOfDirector = [
     linkedin: "https://youtu.be/t3ZC9pNyI0k",
     gmail: "https://youtu.be/t3ZC9pNyI0k"
   },
+  {
+    name: "Sokthoutheareach Chun",
+    role: "Founder",
+    imageUrl:
+      "https://i.pinimg.com/736x/87/67/64/8767644bc68a14c50addf8cb2de8c59e.jpg",
+    linkedin: "https://youtu.be/t3ZC9pNyI0k",
+    gmail: "https://youtu.be/t3ZC9pNyI0k"
+  },
+  {
+    name: "Sokthoutheareach Chun",
+    role: "Founder",
+    imageUrl:
+      "https://i.pinimg.com/736x/87/67/64/8767644bc68a14c50addf8cb2de8c59e.jpg",
+    linkedin: "https://youtu.be/t3ZC9pNyI0k",
+    gmail: "https://youtu.be/t3ZC9pNyI0k"
+  },
 ];
 
 const managementTeam = [
