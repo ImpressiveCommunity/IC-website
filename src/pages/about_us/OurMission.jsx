@@ -1,22 +1,5 @@
 import { HeadingFont, TextFont } from "@/styles/font";
-
-export const missions = [
-  {
-    name: "Mission 1",
-    description:
-      "Aut illo quae. Ut et harum ea animi natus. Culpa maiores et sed sint et magnam exercitationem quia. Ullam voluptas nihil vitae dicta molestiae et. Aliquid velit porro vero.",
-  },
-  {
-    name: "Mission 2",
-    description:
-      "Mollitia delectus a omnis. Quae velit aliquid. Qui nulla maxime adipisci illo id molestiae. Cumque cum ut minus rerum architecto magnam consequatur. Quia quaerat minima.",
-  },
-  {
-    name: "Mission 3",
-    description:
-      "Aut repellendus et officiis dolor possimus. Deserunt velit quasi sunt fuga error labore quia ipsum. Commodi autem voluptatem nam. Quos voluptatem totam.",
-  },
-];
+import { missions } from './content.js';
 
 export default function OurMission() {
   return (

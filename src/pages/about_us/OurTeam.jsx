@@ -2,55 +2,7 @@ import { HeadingFont, TextFont } from "@/styles/font";
 import { BsLinkedin,  } from "react-icons/bs";
 import { BiLogoGoogle,  } from "react-icons/bi";
 
-
-const BoardOfDirector = [
-  {
-    name: "Sokthoutheareach Chun",
-    role: "Founder",
-    imageUrl:
-      "https://i.pinimg.com/736x/87/67/64/8767644bc68a14c50addf8cb2de8c59e.jpg",
-    linkedin: "https://youtu.be/t3ZC9pNyI0k",
-    gmail: "https://youtu.be/t3ZC9pNyI0k"
-  },
-  {
-    name: "Sokthoutheareach Chun",
-    role: "Founder",
-    imageUrl:
-      "https://i.pinimg.com/736x/87/67/64/8767644bc68a14c50addf8cb2de8c59e.jpg",
-    linkedin: "https://youtu.be/t3ZC9pNyI0k",
-    gmail: "https://youtu.be/t3ZC9pNyI0k"
-  },
-  {
-    name: "Sokthoutheareach Chun",
-    role: "Founder",
-    imageUrl:
-      "https://i.pinimg.com/736x/87/67/64/8767644bc68a14c50addf8cb2de8c59e.jpg",
-    linkedin: "https://youtu.be/t3ZC9pNyI0k",
-    gmail: "https://youtu.be/t3ZC9pNyI0k"
-  },
-];
-
-const managementTeam = [
-  {
-    name: "EO",
-    role: "Founder",
-    imageUrl:
-      "https://i.pinimg.com/736x/87/67/64/8767644bc68a14c50addf8cb2de8c59e.jpg",
-    linkedin: "https://youtu.be/t3ZC9pNyI0k",
-    gmail: "https://youtu.be/6ayyfucIl6M"
-  },
-];
-
-const ourAlumni = [
-  {
-    name: "Sokthoutheareach Chun",
-    role: "Member",
-    imageUrl:
-      "https://i.pinimg.com/736x/87/67/64/8767644bc68a14c50addf8cb2de8c59e.jpg",
-    linkedin: "https://youtu.be/t3ZC9pNyI0k",
-    gmail: "https://youtu.be/mNEUkkoUoIA"
-  },
-];
+import { BoardOfDirector, managementTeam, ourAlumni } from './content.js';
 
 export default function OurTeam() {
   return (
@@ -78,8 +30,8 @@ export default function OurTeam() {
           role="list"
           className="mx-auto mt-8 grid max-w-2xl grid-cols-2 gap-x-8 gap-y-16 text-center sm:grid-cols-3 md:grid-cols-4 lg:mx-0 lg:max-w-none lg:grid-cols-5 xl:grid-cols-6"
         >
-          {BoardOfDirector.map((person) => (
-            <li key={person.name}>
+          {BoardOfDirector.map((person, index) => (
+            <li key={person.name + "" + index}>
               <img
                 className="mx-auto h-24 w-24 rounded-full"
                 src={person.imageUrl}
@@ -128,8 +80,8 @@ export default function OurTeam() {
           role="list"
           className="mx-auto mt-8 grid max-w-2xl grid-cols-2 gap-x-8 gap-y-16 text-center sm:grid-cols-3 md:grid-cols-4 lg:mx-0 lg:max-w-none lg:grid-cols-5 xl:grid-cols-6"
         >
-          {managementTeam.map((manaTeam) => (
-            <li key={manaTeam.name}>
+          {managementTeam.map((manaTeam, index) => (
+            <li key={manaTeam.name + ""+ index}>
               <img
                 className="mx-auto h-24 w-24 rounded-full"
                 src={manaTeam.imageUrl}
@@ -180,8 +132,8 @@ export default function OurTeam() {
           role="list"
           className="mx-auto mt-8 grid max-w-2xl grid-cols-2 gap-x-8 gap-y-16 text-center sm:grid-cols-3 md:grid-cols-4 lg:mx-0 lg:max-w-none lg:grid-cols-5 xl:grid-cols-6"
         >
-          {ourAlumni.map((alumni) => (
-            <li key={alumni.name}>
+          {ourAlumni.map((alumni, index) => (
+            <li key={alumni.name + "" + index}>
               <img
                 className="mx-auto h-24 w-24 rounded-full"
                 src={alumni.imageUrl}
