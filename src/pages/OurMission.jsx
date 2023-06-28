@@ -1,5 +1,5 @@
 import { HeadingFont, TextFont } from "@/styles/font.js";
-import { missions } from "./about_us/OurMission.jsx";
+import { missions } from "./about_us/content.js";
 
 export default function OurMission(){
     const list_of_missions = missions.map((mission, index)=><>

@@ -1,4 +1,5 @@
 import { HeadingFont, TextFont } from "@/styles/font";
+import {vision_title, vision_detail} from './content.js';
 
 export default function OurVision() {
   return (
@@ -60,7 +61,7 @@ export default function OurVision() {
                     " max-w-2xl text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl lg:col-span-2 xl:col-auto"
                   }
                 >
-                  Anim aute id magna aliqua ad ad non deserunt sunt.
+                    {vision_title}
                 </h1>
                 <div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
                   <p
@@ -68,10 +69,7 @@ export default function OurVision() {
                       TextFont.className + " text-lg leading-8 text-gray-600"
                     }
                   >
-                    Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
-                    qui lorem cupidatat commodo. Elit sunt amet fugiat veniam
-                    occaecat fugiat aliqua. Anim aute id magna aliqua ad ad non
-                    deserunt sunt. Qui irure qui lorem cupidatat commodo.
+                    {vision_detail}
                   </p>
                 </div>
                 <img
