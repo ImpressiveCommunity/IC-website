@@ -13,6 +13,7 @@
 ## Programs and Projects
  
 ![image 1](https://github.com/ImpressiveCommunity/IC-website/blob/montrey/guide%20images/program_project_guide_1.png)
+![image 2](https://github.com/ImpressiveCommunity/IC-website/blob/montrey/guide%20images/about_us_guide_1.png)
 
 # File structure
 
