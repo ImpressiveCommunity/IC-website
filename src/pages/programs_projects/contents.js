@@ -1,3 +1,6 @@
+export default function something(){
+    return (<></>);
+}
 /* 
 * All text must be a string (surrounded by ', ", or `)
  */
