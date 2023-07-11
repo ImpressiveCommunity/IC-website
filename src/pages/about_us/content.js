@@ -1,3 +1,7 @@
+export default function something(){
+    return (<></>);
+}
+
 export const vision_title = `
 
 Vision Title
