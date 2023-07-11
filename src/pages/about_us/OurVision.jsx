@@ -73,7 +73,7 @@ export default function OurVision() {
                   </p>
                 </div>
                 <img
-                  src="https://z-p3-scontent.fpnh5-4.fna.fbcdn.net/v/t39.30808-6/277766930_504502274614393_3092365575195360436_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeEP2eMLhjDP4cgny8Oz0vvzE9z4fRU6gXMT3Ph9FTqBc03Pn2PRObRn_zVEeMJMpiIhogCYnfYpEIoJjQFDGfGB&_nc_ohc=AN52QbJdEeIAX-E6-2_&_nc_zt=23&_nc_ht=z-p3-scontent.fpnh5-4.fna&oh=00_AfB2XFBpHm4t7tjWkF9TmEgLXXGcYsxXUByuDRvOFU1EAA&oe=6498B16E"
+                  src="https://z-p3-scontent.fpnh18-3.fna.fbcdn.net/v/t39.30808-6/277766930_504502274614393_3092365575195360436_n.jpg?_nc_cat=101&cb=99be929b-3346023f&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeEP2eMLhjDP4cgny8Oz0vvzE9z4fRU6gXMT3Ph9FTqBc03Pn2PRObRn_zVEeMJMpiIhogCYnfYpEIoJjQFDGfGB&_nc_ohc=TaWGMb8AwYMAX91BLBN&_nc_zt=23&_nc_ht=z-p3-scontent.fpnh18-3.fna&oh=00_AfDZVaEsmqjUkd8yj00uBeBtT1G_00NNIzLdfflzg0dLyg&oe=64B266AE"
                   alt=""
                   className="mt-10 aspect-[6/5] w-auto max-w-auto rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36"
                 />
