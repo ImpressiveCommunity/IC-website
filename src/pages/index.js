@@ -9,7 +9,7 @@ export default function Home(){
             <div className='w-[100vw] flex justify-center'>
                 <div className='w-[80%] h-[1.2px] bg-gray-200' />
             </div>
-            <OurMission />
+            {/*<OurMission />*/}
         </Layout>
     </>);
 }
