@@ -7,7 +7,7 @@ import { BoardOfDirector, managementTeam, ourAlumni } from './content.js';
 export default function OurTeam() {
   return (
     <div className="bg-white py-24 sm:py-12">
-      <div className="mx-auto max-w-fit ml-10 mr-10 px-6 lg:px-8 mb-10 lg:mr-16 lg:ml-16">
+      <div className="mx-auto lg:mt-4 max-w-fi ml-0 mr-0 px-6 sm:mt-30 lg:px-8 lg:mr-16 lg:ml-16">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2
             className={
@@ -117,7 +117,7 @@ export default function OurTeam() {
         </ul>
       </div>
 
-      <div className="mx-auto max-w-fit mt- ml-10 mr-10 px-6 lg:px-8 lg:mr-16 lg:ml-16">
+      <div className="mx-auto lg:mt-4 max-w-fi ml-0 mr-0 px-6 sm:mt-30 lg:px-8 lg:mr-16 lg:ml-16 mt-10">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2
             className={

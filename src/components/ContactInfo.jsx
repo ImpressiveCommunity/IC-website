@@ -10,7 +10,7 @@ export default function ContactInfo() {
               <h2
                 className={
                   HeadingFont.className +
-                  " text-3xl font-bold tracking-tight text-white"
+                  " text-3xl font-bold tracking-tight text-white lg:mt-16"
                 }
               >
                 Contact Info
