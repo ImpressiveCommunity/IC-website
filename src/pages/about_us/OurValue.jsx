@@ -5,7 +5,7 @@ export default function OurValue() {
     const values = values_list;
   return (
     <div>
-      <div className="mx-auto mt-4 max-w-fi ml-16 mr-16 px-6 sm:mt-30 lg:px-8">
+      <div className="mx-auto mt-4 max-w-fi ml-10 mr-10 px-6 sm:mt-30 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2
             className={
