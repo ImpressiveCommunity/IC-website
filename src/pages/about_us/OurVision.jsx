@@ -15,7 +15,7 @@ export default function OurVision() {
               className="absolute inset-y-0 right-1/2 -z-10 -mr-96 w-[200%] origin-top-right skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:-mr-80 lg:-mr-96"
               aria-hidden="true"
             />
-            <div className="mx-auto max-w-fit mr-16 ml-16">
+            <div className="mx-auto lg:mt-4 max-w-fi ml-10 mr-10 px-6 sm:mt-30 lg:px-8 lg:mr-16 lg:ml-16">
               <div className="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
                 <h1
                   className={
