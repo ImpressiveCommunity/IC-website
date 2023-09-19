@@ -30,7 +30,7 @@ export const events = [
     {
         title: 'Hi-Goal Camp 2022',
         topic: 'ការចាប់ផ្ដើមអាជីវកម្ម និង​ សហក្រិនភាពវិទ្យាល័យ',
-        date: 'October 29-30, 2022'
+        date: 'October 29-30, 2022',
         images_url: ['https://images.pexels.com/photos/16401186/pexels-photo-16401186.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',]
     },
     {
