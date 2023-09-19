@@ -28,20 +28,20 @@ export const programs = [
 
 export const events = [
     {
-        title: 'Hi-Goal Camp 2022',
+        title: 'Hi-GOAL Camp 2022',
         topic: 'ការចាប់ផ្ដើមអាជីវកម្ម និង​ សហក្រិនភាពវិទ្យាល័យ',
         date: 'October 29-30, 2022',
         images_url: ['https://scontent.fpnh11-1.fna.fbcdn.net/v/t39.30808-6/315155752_503039591862548_2615170479166749949_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=49d041&_nc_eui2=AeFoxS0E4NgMor7E2MzB_Ejsz45LkMjsPyjPjkuQyOw_KCCLON1ouiU5PkEQ0xCKuCqYj5fMkR_N5sXCzAA9W3WD&_nc_ohc=muBfK_wwrwgAX9NBJnK&_nc_oc=AQn0u9YAnjhA1l4UaEo1lnB3swrQ92DGUk4QoGBRb8VJDSTdPB3jtIKi4RCOShZCD7g&_nc_ht=scontent.fpnh11-1.fna&oh=00_AfD7C1SV1QHt1BOXKid_V2s1wRqLruhc1nlpddSgeitlZA&oe=650DC759',
     'https://scontent.fpnh11-1.fna.fbcdn.net/v/t39.30808-6/314016238_2345191435622202_6350681968546383462_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5614bc&_nc_eui2=AeG0m-W_xTeKAMoKhnQXwthQR4bc6qXlVrRHhtzqpeVWtPzen4qWqojxHjly1H_vaXsq3KDN0sohcmi26BqytxZ5&_nc_ohc=-_9qmV8XKlYAX8mg3nY&_nc_ht=scontent.fpnh11-1.fna&oh=00_AfD2ajzkBSrTLio0drVlZrdbtinqWSwJu0d9IBrOIVamxg&oe=650D516D',]
     },
     {
-        title: 'Hi-Goal Camp 2021',
+        title: 'Hi-GOAL Camp 2021',
         topic: 'សិក្ខាសាលាស្ដីពីថ្នាក់វិទ្យាសាស្រ្តពិត និង​ វិទ្យាសាស្ត្រសង្គម និង​ដំណើរឆ្ពោះទៅសាកលវិទ្យាល័យ',
         date: 'December 19, 2021',
-        images_url: ['https://images.pexels.com/photos/16401186/pexels-photo-16401186.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',]
+        images_url: ['https://scontent.fpnh11-1.fna.fbcdn.net/v/t39.30808-6/267050687_2037725753056467_853177772107036770_n.png?_nc_cat=109&ccb=1-7&_nc_sid=49d041&_nc_eui2=AeGA-P14odB2zOBl3yxg3NEUkS5Nj5O3E0-RLk2Pk7cTTwAmWcVYrHgKrH9TbEM_53bCsTFdv-n7zVwfxDJinlpn&_nc_ohc=G2ZjdAZXWHgAX_o-Gdn&_nc_ht=scontent.fpnh11-1.fna&oh=00_AfAejhC_wcUD3_WPVI6W6YoO4IvKCvfdQkYFoYtG7tflww&oe=650EAE2A',]
     },
 {
-        title: 'Hi-Goal Camp 2020',
+        title: 'Hi-GOAL Camp 2020',
         topic: 'ការត្រៀមខ្លួនសម្រាប់បន្តការសិក្សានៅមហាវិទ្យាល័យ',
         date: 'December 26-27, 2020',
         images_url: [
@@ -50,16 +50,16 @@ export const events = [
         ]
     },
     {
-        title: 'Hi-Goal Camp 2019',
+        title: 'Hi-GOAL Camp 2019',
         topic: 'ស្គាល់ខ្លួនឯង',
         date: 'December 22, 2019',
         images_url: [
-            'https://images.pexels.com/photos/16401186/pexels-photo-16401186.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
-            
+            'https://scontent.fpnh11-2.fna.fbcdn.net/v/t1.6435-9/79724885_1453955721433476_9194831373582467072_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeHgDH3ouy7oaE2wCOMiwNFKpZsJWwn849almwlbCfzj1vNx-CnhiUV_vrGXIUR49pRW8bTkQbCg3sHRSfxbckjz&_nc_ohc=LbpoFzt4jW0AX-uwrQW&_nc_ht=scontent.fpnh11-2.fna&oh=00_AfAfoek36kVgg3qjF2bt_KsIUmnj1QFf1D1Ny1izM_GDSg&oe=6530C1E5',
+            'https://scontent.fpnh11-1.fna.fbcdn.net/v/t1.6435-9/79936780_1453465064815875_8638446432291913728_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeGL4_7-WY9sF39yD3KJwdrSFuaxSZYCGPQW5rFJlgIY9L87lhq2kqIK3wZVqZqeCXGW_P2oOG2yaB0hSy6ihUEk&_nc_ohc=fSmbCvuK1cgAX8FbI7A&_nc_ht=scontent.fpnh11-1.fna&oh=00_AfDBFpzKKEMPbO3iY6v12u8LUVsrB8DitbVgvLuw7AhRcg&oe=6530D0DD',
         ]
     },
     {
-        title: 'Hi-Goal Camp 2019',
+        title: 'Hi-GOAL Camp 2019',
         topic: 'តោះគិតជីវិតសាកលវិទ្យាល័យ',
         date: 'March 03, 2019',
         images_url: [
@@ -67,12 +67,12 @@ export const events = [
         ]
     },
     {
-        title: 'Event 2',
-        topic: 'Topic in Event 2',
-        date: 'December 20, 2024',
+        title: 'Hi-GOAL Camp 2018',
+        topic: 'សិក្ខាសាលាស្ដីពី​ Hi-GOAL Camp 2018',
+        date: 'August 26, 2018',
         images_url: [
-            'https://images.pexels.com/photos/16401186/pexels-photo-16401186.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
-            'https://images.pexels.com/photos/16401186/pexels-photo-16401186.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
+            'https://scontent.fpnh11-1.fna.fbcdn.net/v/t1.6435-9/41958027_1104232549739130_4423409255059554304_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeGbYNk7wKtBCJLfBxNaoXKMhix92CZfJWiGLH3YJl8laC2c7a5hVRH5tey3B5AAvz-7Rg6i_wDWno0rITcQj3fV&_nc_ohc=S2eYGuHGTF4AX-6UBzU&_nc_ht=scontent.fpnh11-1.fna&oh=00_AfA4agZwt-o8p-jVWcA_gitjsntN7Y_OK2UeeYxmRefY5A&oe=6530C458',
+            'https://scontent.fpnh11-2.fna.fbcdn.net/v/t1.6435-9/40212318_1091799227649129_787480385410826240_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeH7TnORTM9KTu3km9SdjQzHsnEQAPhntnCycRAA-Ge2cKI5HbCEF4M5LISV8uzUlTFICSMkQ4zzF4lAqGnOciQ3&_nc_ohc=_M-CjHzRS5QAX-7qaUA&_nc_ht=scontent.fpnh11-2.fna&oh=00_AfD1b615RgQoCfiaBviGUkLpCEUROBUrSVJmP3sVge8oeQ&oe=6530A3EC',
         ]
     },
 ];
